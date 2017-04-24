@@ -5,9 +5,12 @@ def python(cle):
 	print(a)
 	return a
 	
-python('Blop')
+
 	
 
 def hash(mot):
 	a=python(mot)
 	print(a%255)
+	
+	
+hash('Blop')

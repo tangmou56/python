@@ -10,7 +10,7 @@ def dic(fr,en,d):
 	else :
 		d[fr]=en
 		
-dic("aller","go")
+dic("aller","go",d)
 
 def aff(d):
 	for i in d.keys():
@@ -21,4 +21,5 @@ def dele(char,d):
 	for i in cd.keys():
 		if(i.startswith(char)) :
 			del(d[i])
-				
+
+aff(d)				

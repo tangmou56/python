@@ -7,5 +7,5 @@ def jeu(nb):
    poi=(taille-100)*(random.randint(7,10))/10
    print("%dcm %10.1fkg"%(taille,poi))
 
-	
+jeu(10)
 
